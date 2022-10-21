@@ -5,17 +5,19 @@
 }
 
 body {
-    font-family: Arial,Helvetica,sans-serif;
-   
+    font-family: 'Lato', sans-serif;
+    /* background-color: #242333; */
+    /* background: url("myke-simon-atsUqIm3wxo-unsplash.jpg"),
+        linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, 0.9)); */
     background: linear-gradient(rgba(0, 18, 50, 0.84), rgba(0, 0, 0, 0.95)),
         url("./lloyd-dirks-4SLz_RCk6kQ-unsplash.jpg") bottom;
     background-size: cover;
-    color: skyblue;
+    color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:skyblue;
+    background-color: rgb(0, 18, 50);
     padding-top: 25px;
 
 }
@@ -25,9 +27,9 @@ body {
 }
 
 .movie-container select {
-    cursor: pointer;
-    background-color:whitesmoke;
-    font-family: "Lucida Console"monospace;
+    background-color: #fff;
+    font-family: 'Lato',
+        sans-serif;
     border: 0;
     border-radius: 5px;
     font-size: 18px;
@@ -55,27 +57,27 @@ body {
 
 
 .seat {
-    background-color: yellow;
+    background-color: #444451;
     height: 12px;
-    width: 17px;
+    width: 15px;
     margin: 3px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 
-    height: 25px;
-    width: 30px;
-    background: yellow;
-    border: 2px solid yellow;
+    height: 30px;
+    width: 35px;
+    background: #01163e;
+    border: 2px solid #314c81;
     transition: all .2s ease;
 }
 
 .seat.selected {
-    background-color: darkblue;
-    background-color: darkblue;
+    background-color: #6feaf6;
+    background-color: #31d7a9;
 }
 
 .seat.occupied {
-    background-color: white;
+    background-color: #fff;
 }
 
 .seat:nth-of-type(2) {
@@ -246,8 +248,5 @@ p.text span {
 button {
     padding: 10px 30px;
     margin: 10px 0;
-    background-color: skyblue;
-    background-color: yellow;
-	box-shadow: 0px 0px 5px yellow,0px 0px 25px yellow,0px 0px 25px yellow,0px 0px 25px yellow,0px 0px 25px yellow;
+    background-color: #6feaf6;
 }
-  
